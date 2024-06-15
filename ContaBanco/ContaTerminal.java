@@ -6,7 +6,7 @@ public class ContaTerminal {
 
     public static void main(String[] args) throws Exception{
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite o seu nome: ");
         String nome = scan.next();
